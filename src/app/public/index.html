@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Imperial Hexology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font: 15px Helvetica, Arial; overflow: scroll; }
+        #messages { list-style-type: none; margin: 0; padding: 0; }
+        #messages li { padding: 5px 10px; word-wrap:break-word;}
+        /* #messages li:nth-child(odd) { background: #eee; } */
+        #chatbot {border-style: solid; border-color:cadetblue; border-radius: 10px; background-image: url('./images/chatbackground.jpg');}     
+        #chatbotheader {font:Helvetica; font-size: 25px; color:crimson; text-align:center} 
+        #top {color:crimson; font-size: 5em; font-weight: 'bold'; font-family: 'Helvetica', cursive; margin: 0;}
+        
+        #people li:nth-last-child(1) { color:rgb(255, 0, 51); font-weight:bold;}
+        #location li:nth-last-child(1) { color:rgb(255, 0, 51); font-weight:bold;}
+        #quantity li:nth-last-child(1) { color:rgb(255, 0, 51); font-weight:bold;}
+        #other li:nth-last-child(1) { color:rgb(255, 0, 51); font-weight:bold;}
+    </style>
+</head>
+    
+<body>
+
+<div class="container-fluid">
+    <div class="container mt-2 mb-2" class="container-fluid px-0">
+        <h11 id="top">#hexology</h11>
+        <h1 style="color:#eee; font-style:italic">Unlock The Magic</h1>
+         <p style="color:rgb(196, 194, 194); font:bold;">For anyone that wants to share their digital media in a real location, </br>Hexology is the social media app that puts your content into the #physicalworld.</p> 
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col" style= "border-style: solid;">
+                <div class="container">
+                    <video id="my_video" width=100% height=50% controls autoplay>
+                       <source  type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="col-4" style= "border-style: solid;">
+                <div class="container-fluid px-0" style="height: 100% ">
+                    <div class="container  text-center" id="chatbot" style="height: 100% " > 
+
+                        <h10 id="chatbotheader">Hexology Chatbot</h10>
+                        <div class="container pt-4" id="msgbox" style="height: 85%; overflow:auto;max-height: 29rem;" >
+                        <ul id="messages"></ul>
+                        </div>
+                        <div class="container-fluid" pt-3>
+                        <form action="" id="send_message" style="background: #000;">
+                        <div class="container-fluid">
+                            <input id="m" autocomplete="off" style="float:left; width: 75%;border-style: solid;"/>
+                            <button style="float:left; width: 25%; background: rgb(130, 224, 255); border: none;border-style: solid;">Send</button>
+                        </div>
+                        </form>
+                          </div> 
+                    </div>
+              </div>
+            </div>
+        </div>
+        <div class="row" id="bigBox">
+            <div class="col">
+                <div class="container-fluid px-0" id="customBox">
+                    <h2 style="color:red">Concept</h2>
+                    <div id="conceptleft">
+                        <div id="carouselExampleCaptions2" class="carousel slide" data-ride="carousel" data-interval="false">
+
+                          <div class="carousel-inner" class=conceptText>
+                            <div class="carousel-item active">
+
+                                <h5 id="concept1" class="conceptTitle" style="color: #82cec6;"></h5>
+                                <p id="abstract1" class="conceptAbstract"></p>
+
+                            </div>
+                            <div class="carousel-item">
+                              
+<<<<<<< Updated upstream
+                                <h6 id="concept2" class="conceptTitle" style="color: #ff8686;">hi2</h6>
+=======
+                                <h6 id="concept2" class="conceptTitle" style="color: #ff8686;"></h6>
+>>>>>>> Stashed changes
+                                <p id="abstract2" class="conceptAbstract"></p>
+                              
+                            </div>
+                            <div class="carousel-item">
+                              
+<<<<<<< Updated upstream
+                                <h7 id="concept3" class="conceptTitle" style="color: #7f92cf;">hi3</h7>
+=======
+                                <h7 id="concept3" class="conceptTitle" style="color: #7f92cf;"></h7>
+>>>>>>> Stashed changes
+                                <p id="abstract3" class="conceptAbstract"></p>
+                              
+                            </div>
+                            <div class="carousel-item">
+                              
+<<<<<<< Updated upstream
+                                <h8 id="concept4" class="conceptTitle" style="color: #9d7ed0;">hi4</h8>
+=======
+                                <h8 id="concept4" class="conceptTitle" style="color: #9d7ed0;"></h8>
+>>>>>>> Stashed changes
+                                <p id="abstract4" class="conceptAbstract"></p>
+                              
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselExampleCaptions2" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselExampleCaptions2" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+          
+                  </div>
+            </div>
+            <div class="col">
+                <div  class="container-fluid px-0" id="customBox">
+                    <h2 style="color:orange">Entities</h2>
+                    <div class="container">            
+                        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="false">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <h1 style="color: #82cec6;" class="entityTitle">People</h1>
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <button type="button" class="btn btn-primary btn-sm">
+                                        Notifications <span class="badge badge-light" id="output1"></span>
+                                        </button>
+                                    </div>
+                                    <div class="entityList">
+<<<<<<< Updated upstream
+                                        <ul id="people"></ul>                         
+=======
+                                        <ul id="people">
+                                        
+                                        </ul>                         
+>>>>>>> Stashed changes
+                                    </div>                  
+                                </div>
+                                <div class="carousel-item">
+                                    <h2 style="color: #ff8686;" class="entityTitle">Location</h2>
+                                    <div class="carousel-caption d-none d-md-block">                                   
+                                    <button type="button" class="btn btn-primary">
+                                    Notifications <span class="badge badge-light" id="output2"></span>
+                                    </button>
+                                    </div>
+                                    <div class="entityList">
+                                        <ul id="location"></ul>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <h3 style="color: #7f92cf;" class="entityTitle">Quantity</h>
+                                  <div class="carousel-caption d-none d-md-block">                                   
+                                    <button type="button" class="btn btn-primary">
+                                    Notifications <span class="badge badge-light" id="output3"></span>
+                                    </button>
+                                  </div>
+                                  <div class="entityList">
+                                    <ul id="quantity"></ul>
+                                  </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <h4 style="color: #9d7ed0;" class="entityTitle">Other</h4>
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <button type="button" class="btn btn-primary">
+                                        Notifications <span class="badge badge-light" id="output4"></span>
+                                        </button>
+                                    </div>
+                                    <div class="entityList">
+                                        <ul id="other"></ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>            
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div  class="container-fluid" id="customBox">
+                    <h2 style="color:yellow">Passage</h2>          
+                      <div class="container text-center">
+                  
+                          <h9 id="entity"></h9>
+                          <p id="originaltext"></p>
+                      </div>
+          
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    </div>
+
+
+    <!-- <div class="container text-center" id="video_controls_var">
+        <button id="playpausebtn" style="background-color:transparent; width: 55px; height: 55px;" class="hide" onclick="playPause(this,'my_video')"></button>
+    </div>
+  
+      <div class="container" id="chat_controls" style="position :fixed; bottom: 0; right: -30%;">
+        <button id="showbutton" onclick="show(this, 'chatbot', 'hidebutton')" style="width: 5%; background: rgb(130, 224, 255); border: none; padding: 10px; display: none;">Show</button>
+        <button id="hidebutton" onclick="hide(this, 'chatbot', 'showbutton')" style="width: 5%; background: rgb(130, 224, 255); border: none; padding: 10px;">Hide</button>
+      </div> -->
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>  
+</body>
+</html>
+
+<script>
+    function playPause(btn,vid) {
+        var vid = document.getElementById(vid);
+        if (vid.paused){ 
+        vid.play();
+        //btn.innerHTML = "Pause";
+        }else{ 
+        vid.pause();
+        //btn.innerHTML = "Play";
+        }
+    }
+    
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+<script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous">
+</script>
+<script>
+    //Counts the concept that is coming in
+    let conceptCount = 1; 
+    $(function () {
+        var socket = io();
+        setTimeout(()=>{
+        socket.emit('user message', 'a user has connected')
+      },3000)
+        // $('#send_message').submit(function(){
+        // socket.emit('chat message', $('#m').val());
+        // $('#m').val('');
+        // return false;
+        // });
+        $('#send_message').submit(function(){
+        socket.emit('user message', $('#m').val());
+        $('#m').val('');
+        return false;
+        });
+        socket.on('user message', function(msg){
+        $('#messages').append($('<li>').text(msg).attr('style',  'background-color:white'));
+        myFunction()
+        });
+        
+        socket.on('chat message', function(msg){
+        $('#messages').append($('<li>').text(msg));
+        myFunction()
+        });
+        $('#playpausebtn').click(function(){
+        socket.emit('timer','timer started')
+        return false;
+        });
+        // socket.on('timer', function(msg){
+        // $(('timer started').text(msg));
+        // });
+<<<<<<< Updated upstream
+        //box 1
+        socket.on('Person', function(msg){
+        $("#people").empty();
+=======
+
+        //clear
+        socket.on('clearList', function(){
+            $("#people").empty();
+            $("#location").empty();
+            $("#quantity").empty();
+            $("#other").empty();
+        })
+
+        //box 1
+        socket.on('Person', function(msg){
+>>>>>>> Stashed changes
+        $("#people").append($('<li>').text(msg));
+        var count1 = $("#people").children().length;
+        //count1 = "Total People Msg: " + count1;
+        document.getElementById('output1').innerHTML = count1;
+        $("#people li").click(function(){
+        socket.emit('query', $(this).html());
+        $(entity).text($(this).html());
+        });
+        });
+        //box 2
+        socket.on('Location', function(msg){
+<<<<<<< Updated upstream
+        $("#location").empty();
+        $('#location').append($('<li>').text(msg));
+=======
+        $("#location").append($('<li>').text(msg));
+>>>>>>> Stashed changes
+        var count2 = $("#location").children().length;
+        //count2 = "Total Location Msg: " + count2;
+        document.getElementById('output2').innerHTML = count2;
+        $("#location li").click(function(){
+        socket.emit('query', $(this).html());
+        $(entity).text($(this).html());
+        });
+        });
+        //box 3
+        socket.on('Quantity', function(msg){
+<<<<<<< Updated upstream
+        $("#quantity").empty();
+        $('#quantity').append($('<li>').text(msg));
+=======
+        $("#quantity").append($('<li>').text(msg));
+>>>>>>> Stashed changes
+        var count3 = $("#quantity").children().length;
+        //count3 = "Total Quantity Msg: " + count3;
+        document.getElementById('output3').innerHTML = count3;
+        $("#quantity li").click(function(){
+        socket.emit('query', $(this).html());
+        $(entity).text($(this).html());
+        });
+        });
+        //box 4
+        socket.on('Other', function(msg){
+<<<<<<< Updated upstream
+        $("#other").empty();
+        $('#other').append($('<li>').text(msg));
+=======
+        $("#other").append($('<li>').text(msg));
+>>>>>>> Stashed changes
+        var count4 = $("#other").children().length;
+        //count4 = "Total Other Msg: " + count4;
+        document.getElementById('output4').innerHTML = count4;
+        $("#other li").click(function(){
+        socket.emit('query', $(this).html());
+        $(entity).text($(this).html());
+        });
+        });
+        //concept
+        socket.on('concept', function(msg){
+        let conceptNumber = '#concept' + conceptCount; 
+        let abstractNumber = '#abstract' + conceptCount;
+        $(conceptNumber).text(msg.concept);
+        $(abstractNumber).text(msg.abstract);
+        conceptCount += 1;
+        });
+        socket.on('passage', function(msg){
+          $(originaltext).text(msg);
+        });
+        socket.on('video', function(msg){
+          $("#my_video").attr("src", msg)
+        })
+    });
+    
+        function show(x,y,z){
+        var y = document.getElementById(y);
+        var z = document.getElementById(z);
+        y.style.display = "block";
+        z.style.display = "block";
+        x.style.display = "none";
+        };
+        function hide(x,y,z){
+        var y = document.getElementById(y);
+        var z = document.getElementById(z);
+        y.style.display = "none";
+        z.style.display = "block";
+        x.style.display = "none";
+        };
+</script>
+
+<script>
+        function myFunction() {
+        var objDiv = document.getElementById("msgbox");
+        objDiv.scrollTop = objDiv.scrollHeight;
+        }
+        // setInterval(()=>{
+        //   myFunction();
+    
+        // },3000)
+</script>
