@@ -1,0 +1,32 @@
+/* Box */
+//202024
+
+.box {
+    border-radius: 10px;
+    margin-bottom: 2em;
+    background: #2c2c32;
+    text-align: center;
+    /* border-style: solid; */
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14pt;
+	font-weight: 300;
+	line-height: 1.65;
+}
+
+#green{
+    color: #82cec6;
+}
+
+#pink{
+    color: #ff8686;
+}
+
+#blue{
+    color: #7f92cf;
+}
+
+#purple{
+    color: #9d7ed0;
+}
+

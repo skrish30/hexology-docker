@@ -1,0 +1,301 @@
+2019-06-19 19:34:30 info: Program started
+2019-06-19 19:34:30 info: server starting on http://localhost:6001
+2019-06-19 19:34:30 debug: categories created
+2019-06-19 19:34:30 debug: data created
+2019-06-19 19:34:30 debug: video replaced
+2019-06-19 19:34:55 debug: valid URL
+2019-06-19 19:34:55 debug: Start on  1560969295131
+2019-06-19 19:35:13 debug: Download took  18 seconds
+2019-06-19 19:35:13 debug: Started mp3 conversion using FFMPEG
+2019-06-19 19:35:27 debug: file has been converted successfully
+2019-06-19 19:35:28 info: ready for speech text
+2019-06-19 19:35:28 debug: sucess:set audioParams
+2019-06-19 19:35:28 debug: Start Transcription
+2019-06-19 19:35:58 debug: Reading transcript
+2019-06-19 19:37:57 info: Program started
+2019-06-19 19:37:57 info: server starting on http://localhost:6001
+2019-06-19 19:37:57 debug: categories created
+2019-06-19 19:37:57 debug: data created
+2019-06-19 19:37:57 debug: video replaced
+2019-06-19 19:38:08 debug: valid URL
+2019-06-19 19:38:08 debug: Start on  1560969488983
+2019-06-19 19:38:26 debug: Download took  17 seconds
+2019-06-19 19:38:26 debug: Started mp3 conversion using FFMPEG
+2019-06-19 19:56:51 info: Program started
+2019-06-19 19:56:51 info: server starting on http://localhost:6001
+2019-06-19 19:56:51 error: ENOTEMPTY: directory not empty, rmdir 'datas'
+2019-06-19 19:59:04 info: Program started
+2019-06-19 19:59:04 info: server starting on http://localhost:6001
+2019-06-19 19:59:04 error: ENOTEMPTY: directory not empty, rmdir './datas'
+2019-06-19 19:59:55 info: Program started
+2019-06-19 19:59:55 info: server starting on http://localhost:6001
+2019-06-19 20:09:27 info: Program started
+2019-06-19 20:09:27 info: server starting on http://localhost:6001
+2019-06-19 20:09:27 error: ENOTEMPTY: directory not empty, rmdir './datas'
+2019-06-19 20:09:27 debug: ./datas folder created
+2019-06-19 20:09:27 debug: video replaced
+2019-06-19 20:09:27 debug: data created
+2019-06-19 20:10:11 info: Program started
+2019-06-19 20:10:11 info: server starting on http://localhost:6001
+2019-06-19 20:10:11 error: 1stError: ENOTEMPTY: directory not empty, rmdir './datas'
+2019-06-19 20:10:11 debug: ./datas folder created
+2019-06-19 20:10:11 debug: video replaced
+2019-06-19 20:10:11 debug: data created
+2019-06-19 20:16:46 info: Program started
+2019-06-19 20:16:46 info: server starting on http://localhost:6001
+2019-06-19 20:16:46 debug: video replaced
+2019-06-19 20:16:46 debug: old ./datas folder removed
+2019-06-19 20:16:46 debug: ./datas folder created
+2019-06-19 20:16:46 debug: data created
+2019-06-19 20:18:10 info: Program started
+2019-06-19 20:18:10 info: server starting on http://localhost:6001
+2019-06-19 20:18:10 debug: video replaced
+2019-06-19 20:18:10 debug: ./datas folder removed
+2019-06-19 20:18:10 debug: ./datas folder created
+2019-06-19 20:18:10 debug: data created
+2019-06-19 20:18:26 info: Program started
+2019-06-19 20:18:26 info: server starting on http://localhost:6001
+2019-06-19 20:18:26 debug: video replaced
+2019-06-19 20:18:26 debug: ./datas folder removed
+2019-06-19 20:18:26 debug: ./datas folder created
+2019-06-19 20:18:26 debug: ./datas/concept created
+2019-06-19 20:19:35 debug: valid URL
+2019-06-19 20:19:35 debug: Start on  1560971975991
+2019-06-19 20:19:55 debug: Download took  19 seconds
+2019-06-19 20:19:55 debug: Started mp3 conversion using FFMPEG
+2019-06-19 20:20:09 debug: file has been converted successfully
+2019-06-19 20:20:10 info: ready for speech text
+2019-06-19 20:20:10 debug: sucess:set audioParams
+2019-06-19 20:20:10 debug: Start Transcription
+2019-06-19 20:20:40 debug: Reading transcript
+2019-06-19 20:20:40 debug: Transcript1.json:ready for upload
+2019-06-19 20:20:48 debug: document_id:71c36c05-2c03-46b4-8e96-e06fcc1450c4,status:pending
+2019-06-19 20:20:53 debug: Upload done
+2019-06-19 20:20:54 debug: All Entities found
+2019-06-19 20:20:55 debug: Personsuccessful query
+2019-06-19 20:20:55 debug: Quantitysuccessful query
+2019-06-19 20:20:56 debug: Companysuccessful query
+2019-06-19 20:22:50 info: Program started
+2019-06-19 20:22:50 info: server starting on http://localhost:6001
+2019-06-19 20:22:50 debug: video replaced
+2019-06-19 20:22:50 debug: ./datas folder removed
+2019-06-19 20:22:50 debug: ./datas folder created
+2019-06-19 20:22:50 debug: ./datas/concept created
+2019-06-19 20:23:18 debug: valid URL
+2019-06-19 20:23:18 debug: Start on  1560972198383
+2019-06-19 20:24:02 debug: Download took  44 seconds
+2019-06-19 20:24:02 debug: Started mp3 conversion using FFMPEG
+2019-06-19 20:24:17 debug: file has been converted successfully
+2019-06-19 20:24:17 info: ready for speech text
+2019-06-19 20:24:17 debug: sucess:set audioParams
+2019-06-19 20:24:17 debug: Start Transcription
+2019-06-19 20:24:47 debug: Reading transcript
+2019-06-19 20:24:47 debug: Transcript1.json:ready for upload
+2019-06-19 20:24:49 debug: document_id:fac14d25-0480-441f-bbf6-60ad92bfb41c,status:pending
+2019-06-19 20:24:59 debug: Upload done
+2019-06-19 20:25:00 debug: All Entities found
+2019-06-19 20:25:01 debug: JobTitlesuccessful query
+2019-06-19 20:25:01 debug: Locationsuccessful query
+2019-06-19 20:25:01 debug: Facilitysuccessful query
+2019-06-19 20:25:01 debug: Companysuccessful query
+2019-06-19 20:25:50 info: Program started
+2019-06-19 20:25:50 info: server starting on http://localhost:6001
+2019-06-19 20:25:50 debug: video replaced
+2019-06-19 20:25:50 debug: ./datas folder removed
+2019-06-19 20:25:50 debug: ./datas folder created
+2019-06-19 20:25:50 debug: ./datas/concept created
+2019-06-19 20:26:13 debug: valid URL
+2019-06-19 20:26:13 debug: Start on  1560972373129
+2019-06-19 20:26:28 debug: Download took  15 seconds
+2019-06-19 20:26:28 debug: Started mp3 conversion using FFMPEG
+2019-06-19 20:26:43 debug: file has been converted successfully
+2019-06-19 20:26:43 info: ready for speech text
+2019-06-19 20:26:43 debug: sucess:set audioParams
+2019-06-19 20:26:43 debug: Start Transcription
+2019-06-19 20:27:13 debug: Reading transcript
+2019-06-19 20:27:13 debug: Transcript1.json:ready for upload
+2019-06-19 20:27:15 debug: document_id:a70ef1de-e9e2-4c15-866e-9a81ffe5a01c,status:pending
+2019-06-19 20:27:29 debug: Upload done
+2019-06-19 20:27:30 debug: All Entities found
+2019-06-19 20:27:31 debug: Personsuccessful query
+2019-06-19 20:27:31 debug: Locationsuccessful query
+2019-06-19 20:27:31 debug: JobTitlesuccessful query
+2019-06-19 20:27:31 debug: Companysuccessful query
+2019-06-19 20:27:31 debug: Quantitysuccessful query
+2019-06-19 20:44:05 info: Program started
+2019-06-19 20:44:05 info: server starting on http://localhost:6001
+2019-06-19 20:44:05 debug: video replaced
+2019-06-19 20:44:05 debug: ./datas folder removed
+2019-06-19 20:44:05 debug: ./datas folder created
+2019-06-19 20:44:05 debug: ./datas/concept created
+2019-06-19 20:45:34 debug: valid URL
+2019-06-19 20:45:34 debug: Start on  1560973534833
+2019-06-19 20:45:40 debug: Download took  5 seconds
+2019-06-19 20:45:40 debug: Started mp3 conversion using FFMPEG
+2019-06-19 20:45:57 debug: file has been converted successfully
+2019-06-19 20:45:58 info: ready for speech text
+2019-06-19 20:45:58 debug: sucess:set audioParams
+2019-06-19 20:45:58 debug: Start Transcription
+2019-06-19 20:46:28 debug: Reading transcript
+2019-06-19 20:46:28 debug: Transcript1.json:ready for upload
+2019-06-19 20:46:30 debug: document_id:7c36041e-23c0-48f8-8eef-ae4176b72a8d,status:pending
+2019-06-19 20:46:40 debug: Upload done
+2019-06-19 20:46:41 debug: All Entities found
+2019-06-19 20:46:42 debug: Personsuccessful query
+2019-06-19 20:46:42 debug: Locationsuccessful query
+2019-06-19 20:46:42 debug: JobTitlesuccessful query
+2019-06-19 20:46:42 debug: Facilitysuccessful query
+2019-06-19 20:46:42 debug: Query logged in ./datas/concept.json
+2019-06-19 20:46:42 debug: Companysuccessful query
+2019-06-19 20:52:49 info: Program started
+2019-06-19 20:52:49 info: server starting on http://localhost:6001
+2019-06-19 20:52:49 debug: video replaced
+2019-06-19 20:52:49 debug: ./datas folder removed
+2019-06-19 20:52:49 debug: ./datas folder created
+2019-06-19 20:52:49 debug: ./datas/concept created
+2019-06-19 20:53:14 debug: valid URL
+2019-06-19 20:53:14 debug: Start on  1560973994359
+2019-06-19 20:53:20 debug: Download took  5 seconds
+2019-06-19 20:53:20 debug: Started mp3 conversion using FFMPEG
+2019-06-19 20:53:35 debug: file has been converted successfully
+2019-06-19 20:53:35 info: ready for speech text
+2019-06-19 20:53:35 debug: sucess:set audioParams
+2019-06-19 20:53:35 debug: Start Transcription
+2019-06-19 20:54:05 debug: Reading transcript
+2019-06-19 20:54:05 debug: Transcript1.json:ready for upload
+2019-06-19 20:54:10 debug: document_id:7b702cb7-d7a2-4381-826f-b056f0a1328a,status:pending
+2019-06-19 20:54:19 debug: Upload done
+2019-06-19 20:54:20 debug: All Entities found
+2019-06-19 20:54:21 debug: Locationsuccessful query
+2019-06-19 20:54:21 debug: Personsuccessful query
+2019-06-19 20:54:21 debug: Companysuccessful query
+2019-06-19 20:54:21 debug: Facilitysuccessful query
+2019-06-19 20:54:21 debug: Query logged in ./datas/concept.json
+2019-06-19 20:54:21 debug: Quantitysuccessful query
+2019-06-19 21:28:30 info: Program started
+2019-06-19 21:28:30 info: server starting on http://localhost:6001
+2019-06-19 21:28:30 debug: video replaced
+2019-06-19 21:28:30 debug: ./datas folder removed
+2019-06-19 21:28:30 debug: ./datas folder created
+2019-06-19 21:28:30 debug: ./datas/concept created
+2019-06-19 21:28:30 error: ENOENT: no such file or directory, open 'datas/dataPerson.json/""'
+2019-06-19 21:29:09 info: Program started
+2019-06-19 21:29:09 info: server starting on http://localhost:6001
+2019-06-19 21:29:09 debug: ./datas folder removed
+2019-06-19 21:29:09 debug: video replaced
+2019-06-19 21:29:09 debug: ./datas folder created
+2019-06-19 21:29:09 debug: ./datas/concept created
+2019-06-19 21:29:09 error: ENOENT: no such file or directory, open 'datas/dataPerson.json/""'
+2019-06-19 21:29:58 info: Program started
+2019-06-19 21:29:58 info: server starting on http://localhost:6001
+2019-06-19 21:29:58 debug: video replaced
+2019-06-19 21:29:58 debug: ./datas folder removed
+2019-06-19 21:29:58 debug: ./datas folder created
+2019-06-19 21:29:58 debug: ./datas/concept created
+2019-06-19 21:31:08 debug: valid URL
+2019-06-19 21:31:08 debug: Start on  1560976268484
+2019-06-19 21:31:17 debug: Download took  8 seconds
+2019-06-19 21:31:17 debug: Started mp3 conversion using FFMPEG
+2019-06-19 21:31:34 debug: file has been converted successfully
+2019-06-19 21:31:34 info: ready for speech text
+2019-06-19 21:31:34 debug: sucess:set audioParams
+2019-06-19 21:31:34 debug: Start Transcription
+2019-06-19 21:32:04 debug: Reading transcript
+2019-06-19 21:32:04 debug: Transcript1.json:ready for upload
+2019-06-19 21:32:06 debug: document_id:7188912b-5271-408d-8cd5-cd45d54fae1c,status:pending
+2019-06-19 21:32:17 debug: Upload done
+2019-06-19 21:32:18 debug: All Entities found
+2019-06-19 21:32:19 debug: Query logged in ./datas/concept.json
+2019-06-19 21:32:19 debug: Companysuccessful query
+2019-06-19 21:32:19 debug: Quantitysuccessful query
+2019-06-19 21:32:19 debug: Facilitysuccessful query
+2019-06-19 21:32:19 debug: Locationsuccessful query
+2019-06-19 21:32:19 debug: JobTitlesuccessful query
+2019-06-19 21:32:19 debug: Personsuccessful query
+2019-06-19 21:32:34 debug: Reading transcript
+2019-06-19 21:32:34 debug: Transcript2.json:ready for upload
+2019-06-19 21:32:35 debug: document_id:6040fe45-811d-4c90-888c-6e54b8a462bc,status:pending
+2019-06-19 21:32:43 debug: Upload done
+2019-06-19 21:32:45 debug: All Entities found
+2019-06-19 21:32:45 debug: Companysuccessful query
+2019-06-19 21:32:45 debug: Locationsuccessful query
+2019-06-19 21:32:45 debug: Personsuccessful query
+2019-06-19 21:32:45 debug: Quantitysuccessful query
+2019-06-19 21:32:45 debug: Query logged in ./datas/concept.json
+2019-06-19 21:32:46 debug: JobTitlesuccessful query
+2019-06-19 21:32:46 debug: Facilitysuccessful query
+2019-06-19 21:33:04 debug: Reading transcript
+2019-06-19 21:33:04 debug: Transcript3.json:ready for upload
+2019-06-19 21:33:05 debug: document_id:535c76ee-e5e6-424b-ac39-559e85de3ec9,status:pending
+2019-06-19 21:33:14 debug: Upload done
+2019-06-19 21:33:15 debug: All Entities found
+2019-06-19 21:33:15 debug: Quantitysuccessful query
+2019-06-19 21:33:15 debug: JobTitlesuccessful query
+2019-06-19 21:33:15 debug: Personsuccessful query
+2019-06-19 21:33:15 debug: Facilitysuccessful query
+2019-06-19 21:33:15 debug: Locationsuccessful query
+2019-06-19 21:33:16 debug: Companysuccessful query
+2019-06-19 21:33:16 debug: Query logged in ./datas/concept.json
+2019-06-19 21:33:34 debug: Reading transcript
+2019-06-19 21:33:34 debug: Transcript4.json:ready for upload
+2019-06-19 21:33:35 debug: document_id:a6f2a71c-e7f9-4881-9e3b-146798f0939e,status:pending
+2019-06-19 21:33:44 debug: Upload done
+2019-06-19 21:33:45 debug: All Entities found
+2019-06-19 21:33:45 debug: Personsuccessful query
+2019-06-19 21:33:45 debug: Facilitysuccessful query
+2019-06-19 21:33:45 debug: Companysuccessful query
+2019-06-19 21:33:45 debug: Quantitysuccessful query
+2019-06-19 21:33:46 debug: Locationsuccessful query
+2019-06-19 21:33:46 debug: JobTitlesuccessful query
+2019-06-19 21:33:46 debug: Query logged in ./datas/concept.json
+2019-06-19 21:34:04 debug: Reading transcript
+2019-06-19 21:34:04 debug: Transcript5.json:ready for upload
+2019-06-19 21:34:06 debug: document_id:35a0228b-1c28-4dba-99ef-1df397850708,status:pending
+2019-06-19 21:34:14 debug: Upload done
+2019-06-19 21:34:15 debug: All Entities found
+2019-06-19 21:34:16 debug: Personsuccessful query
+2019-06-19 21:34:16 debug: Quantitysuccessful query
+2019-06-19 21:34:16 debug: Facilitysuccessful query
+2019-06-19 21:34:16 debug: Companysuccessful query
+2019-06-19 21:34:16 debug: Locationsuccessful query
+2019-06-19 21:34:16 debug: JobTitlesuccessful query
+2019-06-19 21:34:16 debug: Query logged in ./datas/concept.json
+2019-06-19 21:34:34 debug: Reading transcript
+2019-06-19 21:34:34 debug: Transcript6.json:ready for upload
+2019-06-19 21:34:35 debug: document_id:9a7b3298-4b95-4d50-9710-cef5227d8b70,status:pending
+2019-06-19 21:34:56 debug: Upload done
+2019-06-19 21:34:57 debug: All Entities found
+2019-06-19 21:34:58 debug: Quantitysuccessful query
+2019-06-19 21:34:58 debug: Query logged in ./datas/concept.json
+2019-06-19 21:34:58 debug: Companysuccessful query
+2019-06-19 21:34:58 debug: Locationsuccessful query
+2019-06-19 21:34:58 debug: Facilitysuccessful query
+2019-06-19 21:34:58 debug: Personsuccessful query
+2019-06-19 21:34:58 debug: JobTitlesuccessful query
+2019-06-19 21:35:04 debug: Reading transcript
+2019-06-19 21:35:04 debug: Transcript7.json:ready for upload
+2019-06-19 21:35:06 error: Upload errorResponse not received. Body of error is HTTP ClientRequest object
+2019-06-19 21:35:34 debug: Reading transcript
+2019-06-19 21:35:34 debug: Transcript8.json:ready for upload
+2019-06-19 21:35:35 debug: document_id:0c4de555-c23b-4ad2-abfe-555502d92366,status:pending
+2019-06-19 21:35:44 debug: Upload done
+2019-06-19 21:35:45 debug: All Entities found
+2019-06-19 21:35:46 debug: Facilitysuccessful query
+2019-06-19 21:35:46 debug: Personsuccessful query
+2019-06-19 21:35:46 debug: JobTitlesuccessful query
+2019-06-19 21:35:46 debug: Locationsuccessful query
+2019-06-19 21:35:46 debug: Query logged in ./datas/concept.json
+2019-06-19 21:35:46 debug: Quantitysuccessful query
+2019-06-19 21:35:46 debug: Companysuccessful query
+2019-06-19 21:39:07 info: Program started
+2019-06-19 21:39:07 info: server starting on http://localhost:6001
+2019-06-19 21:39:07 debug: video replaced
+2019-06-19 21:39:07 debug: ./datas folder removed
+2019-06-19 21:39:07 debug: ./datas folder created
+2019-06-19 21:39:07 debug: ./datas/concept created
+2019-06-19 23:58:54 info: Program started
+2019-06-19 23:58:55 info: server starting on http://localhost:6001
+2019-06-19 23:58:55 debug: video replaced
+2019-06-19 23:58:55 debug: ./datas folder removed
+2019-06-19 23:58:55 debug: ./datas folder created
+2019-06-19 23:58:55 debug: ./datas/concept created

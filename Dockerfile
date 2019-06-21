@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:10-slim
 
 # Create app directory
 WORKDIR /home/sk4316/test/hexology-docker/src/app
@@ -15,5 +15,5 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-EXPOSE 8080
+EXPOSE 6001
 CMD [ "npm", "start" ]
