@@ -17,7 +17,7 @@
     "fluent-ffmpeg": "^2.1.2",
     "fs-extra": "^8.0.1",
     "ibm-watson": "^4.1.3",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "request": "*",
     "request-promise": "*",
     "socket.io": "2.0.3",
